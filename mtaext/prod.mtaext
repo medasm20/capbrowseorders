@@ -1,0 +1,20 @@
+_schema-version: "3.2"
+ID: sapuidemoorderbrowser-prod
+
+extends: sapuidemoorderbrowser
+
+resources:
+
+  - name: sapuidemoorderbrowser-destination-service
+    parameters:
+      service-name: sapuidemoorderbrowser-destination-service-prod
+
+  - name: sapuidemoorderbrowser-uaa
+    parameters:
+      service-name: sapuidemoorderbrowser-xsuaa-service-prod
+      config:
+        xsappname: sapuidemoorderbrowser-prod
+
+  - name: sapuidemoorderbrowser-repo-host
+    parameters:
+      service-name: sapuidemoorderbrowser-html5-service-prod
