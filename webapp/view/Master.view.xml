@@ -64,6 +64,7 @@
 							id="searchField"
 							showRefreshButton="true"
 							tooltip="{i18n>masterSearchTooltip}"
+							placeholder="Search Orders"
 							width="100%"
 							search=".onSearch">
 							<layoutData>
