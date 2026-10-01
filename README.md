@@ -16,7 +16,7 @@
 |**Enable TypeScript**<br>False|
 |**Add Eslint configuration**<br>True, see https://www.npmjs.com/package/@sap-ux/eslint-plugin-fiori-tools#rules for the eslint rules.|
 Testing browse order
-## orderbrowser
+## orderbrowsertree
 
 Master-detail app for browsing orders.
 
